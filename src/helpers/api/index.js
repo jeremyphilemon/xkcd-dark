@@ -1,6 +1,6 @@
 import { API } from './core';
 
-const base = 'https://xkcd.now.sh/';
+const base = 'https://xkcdapi.now.sh/';
 
 const api = new API(base);
 
