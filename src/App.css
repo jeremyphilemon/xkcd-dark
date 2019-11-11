@@ -1,8 +1,16 @@
+@font-face {
+  font-family: 'Apercu';
+  src: url('fonts/Apercu-Mono.woff') format('woff');
+  font-weight: 800;
+  font-style: monospace;
+}
+
 html {
   background: #191919;
 }
 
 .home {
+  font-family: 'Apercu';
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,11 +25,12 @@ html {
 }
 
 .navigation-button {
+  font-family: 'Apercu';
   color: #bdbdbd;
   font-weight: bold;
-  font-family: monospace;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   margin-top: 1rem;
+  letter-spacing: -1px;
   cursor: pointer;
 }
 
@@ -42,6 +51,7 @@ html {
 .title {
   color: #bdbdbd;
   font-weight: bold;
+  letter-spacing: -1px;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
@@ -79,8 +89,8 @@ button {
 .credit {
   color: #bdbdbd;
   letter-spacing: -0.5px;
-  font-size: 1rem;
-  font-family: monospace;
+  font-size: 0.75rem;
+  font-family: 'Apercu';
   text-align: center;
   margin-bottom: -0.25rem;
 }
